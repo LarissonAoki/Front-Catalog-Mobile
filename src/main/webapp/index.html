@@ -1,0 +1,56 @@
+
+<html>
+    <head>
+        <title>Tela Busca</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/globals.css">
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/tela.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" 
+              integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" 
+              crossorigin=""/>
+        
+        <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               
+        
+        <script type="text/javascript" src="js/button_menu.js"></script>
+        
+    </head>
+    
+    <body>
+        <div class="limiter">
+            <div id="logotipo">
+                <div id="conteudo-topo">
+                    <div class="instituto"> Instituto Nacional de Pesquisas Espaciais</div>
+                    <a id="logoinpe" href="http://www.inpe.br/">
+                        <img src="img/logotipoInpe.png" alt="Logotipo do INPE">
+                    </a>
+                    <div class="ministerio">Ministério da Ciência, Tecnologia, Inovações e Comunicações</div>
+                </div>
+                
+            </div>
+            
+            <div id="fixa-menu">
+                <div id="conteudo-fixa-menu">
+                    <button id="aparecer_menu">&#9776;</button>
+                    <label id="titulo">Catalog</label>
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="http://150.163.17.153:8080/Catalog/"><i class="fa fa-ul fa-home" aria-hidden="true"></i>Home</a></li>
+                            <li><a href="#"><i class="fa fa-ul fa-heart" aria-hidden="true"></i>Favoritos</a></li>
+                            <li><a href="login.html"><i class="fa fa-ul fa-user" aria-hidden="true"></i>Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="busca"> área de busca</div>
+            <div id="map">área do mapa</div>
+            <script type="text/javascript" src="js/mapa.js"></script>
+        </div>     
+        
+    </body>
+</html>
